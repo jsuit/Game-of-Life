@@ -1,4 +1,3 @@
-
 #include "mylib.h" 
 #include "debugging.h"
 
@@ -101,15 +100,6 @@ void clearScreens(){
 void readGridEdit() {
 	//int max = MAXROW*MAXCOL/2;
 	 u16 pixel;
-	
-/*
-	for(int i = 1; i < 10; i++){
-		for(int j = 0; j < 4; j++){
-			setPixel4(i,j, CURSORALIVE);
-		}
-	}
-*/
-	
 	
 	for(int i = 0; i < MAXROW; i++){
 		for(int j = 0; j < MAXCOL; j++){
